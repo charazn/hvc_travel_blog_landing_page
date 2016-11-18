@@ -1,0 +1,149 @@
+body {
+  font-size: 16px;
+}
+
+/* Navbar */
+
+nav.navbar.navbar-default {
+  margin-bottom: 0;
+  background-color: #fff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: 0;
+}
+
+.navbar-brand {
+  transform: translateX(-50%);
+  left: 50%;
+  position: absolute;
+  text-transform: uppercase;
+  font-size: 3.6rem;
+  font-weight: 900;
+  color: #2D9BC5 !important;
+}
+
+.navbar-nav li {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+}
+
+.navbar-left li {
+  padding-left: 90px;
+}
+
+.navbar-left li:nth-child(2) {
+  padding-left: 130px;
+}
+
+.navbar-right li {
+  padding-right: 130px;
+}
+
+.navbar-right li:nth-child(2) {
+  padding-right: 100px;
+}
+
+/* Spread */
+
+.jumbotron {
+  height: 400px;
+}
+
+video {
+  width: 100vw; /* Could also use width: 100%; */
+  height: 100vh;
+  object-fit: cover;
+  position: fixed; /* Change position to absolute if you don't want it to take up the whole page */
+  left: 0px;
+  top: 0px;
+  z-index: -10;
+}
+
+/* Video overlay */
+
+section.video-overlay {
+  margin-top: 220px;
+  color: #fff;
+}
+
+section.video-overlay h2 {
+  font-size: 5rem;
+  text-transform: uppercase;
+}
+
+section.video-overlay p {
+  font-size: 2rem;
+}
+
+/* Tell me more */
+
+section.tell-me-more {
+  background-color: #fff;
+  margin-top: 600px;
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+
+/* Road Trip Photos */
+
+.road-trip-photos .container-fluid {
+  padding: 0;
+}
+
+
+/* Newsletter */
+
+section.newsletter {
+  background-color: #2D9BC5;
+  color: #fff;
+  padding-top: 40px;
+  padding-bottom: 70px;
+}
+
+section.newsletter .input-group {
+  width: 500px;
+  margin: auto;
+  float: none;
+}
+
+section.newsletter h3 {
+  margin-bottom: 20px;
+}
+
+/* Social icons */
+
+section.social-icons {
+  background-color: #fff;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+section.social-icons a {
+  color: #C8C8C8;
+}
+
+section.social-icons a:hover {
+  color: #2D9BC5;
+}
+
+/* Footer */
+
+footer {
+  background-color: #F8F8F8;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 30px;
+}
+
+footer span {
+  font-size: 1.5rem !important;
+  letter-spacing: 1px;
+}
+
+footer ul li {
+  margin-right: 30px;
+  text-transform: uppercase;
+  font-size: 1.5rem !important;
+  font-weight: 400 !important;
+}
